@@ -1,26 +1,98 @@
-# Uchiha Clan
+# Badges
 
-## Welcome to the Bot-Uchiha Repository
+![JavaScript](https://img.shields.io/badge/JavaScript-1f9cf0?style=flat&logo=javascript) ![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=flat&logo=whatsapp) ![Node.js](https://img.shields.io/badge/Node.js-68A063?style=flat&logo=nodedotjs) ![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-![Uchiha Symbol](https://example.com/uchihasymbol.png)
+# Prerequisites
 
-This repository is dedicated to the Uchiha clan's legacy, incorporating its rich history and spectacular design in a modern context.
+- Node.js v14+
+- npm v6+
+- WhatsApp account
+- Git
 
-### Theme Overview
-- **Colors**: Red and Black 
-- **Symbols**: Uchiha clan symbols proudly displayed
-- **Styling**: Professional layout and alignment, ensuring all elements are cohesive.
+# Installation
 
-### Features includes:
-- Dynamic Bot functionalities
-- Interactive Uchiha themed enhancements
-- Community-driven development
+1. Clone the repository:
+   ```
+   git clone [repository-url]
+   ```
+2. Navigate into the project directory:
+   ```
+   cd [project-directory]
+   ```
+3. Install npm packages:
+   ```
+   npm install
+   ```
+4. Set up your environment variables:
+   ```
+   cp .env.example .env
+   ```
+5. Generate your QR code:
+   ```
+   npm start
+   ```
 
-## Contributing
-Feel free to contribute to the project. We welcome suggestions that respect the Uchiha heritage! 
+# Usage
 
----
+To start the application:
+```bash
+npm start
+```
 
-_Last updated on 2025-11-25 18:27:13 UTC_ 
+### Practical Examples:
+- `!help` - Get a list of commands.
+- `!balance` - Check your balance.
 
-> The Uchiha clan is known for its powerful abilities and strong bond. This project strives to uphold those values through powerful coding and community engagement.
+# Technologies
+
+- JavaScript
+- Node.js
+- Baileys
+- Express.js
+- SQLite/JSON
+
+# Project Structure
+
+- `src` - Source files.
+- `modules` - Reusable modules.
+- `auth_info_baileys` - Authentication information directory.
+
+### Main Files:
+- `index.js` - Entry point of the application.
+- `menu.js` - Menu handling.
+- `submenu.js` - Submenu handling.
+- `conf.js` - Configuration settings.
+
+# Roadmap
+
+## Completed Features:
+- Authentication
+- Menus
+
+## In-Development Features:
+- Database
+- Permissions
+
+## Future Features:
+- API Integration
+- Dashboard
+
+# Contributing
+
+For contributions, please refer to [CONTRIBUTING.md](CONTRIBUTING.md).
+
+# Support & Contact
+
+- Bug reporting via [Issues](https://github.com/verzinonlyyuhhh/Bot-Uchiha/issues).
+- Email contact: [Your Name](mailto:youremail@example.com).
+- [GitHub Profile](https://github.com/verzinonlyyuhhh)
+
+# Author
+
+- verzinonlyyuhhh
+
+# License
+
+This project is licensed under the MIT License.
+
+**Last updated: 2025-11-25 19:36:43 UTC**.
